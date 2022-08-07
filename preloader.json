@@ -1,0 +1,17 @@
+{
+    "ModName": "MyMod",
+	"ModDescription": "Description",
+	"ModIdentifier": "ModIdentifier",
+    "ModAuthor": "Me",
+    "ModTypeFullName": "namespace.MyModClassName",
+    "Dependencies":
+    [{
+            "workshopId": 2838649833,
+            "dllName": "0Harmony.dll"
+        }, {
+            "workshopId": 2838649833,
+            "dllName": "0Harmony.dll"
+        }
+
+    ]
+}

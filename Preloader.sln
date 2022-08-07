@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Preloader", "Preloader\Preloader.csproj", "{2056C321-A145-4FB7-BE04-B8A3BF3DB530}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2056C321-A145-4FB7-BE04-B8A3BF3DB530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2056C321-A145-4FB7-BE04-B8A3BF3DB530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2056C321-A145-4FB7-BE04-B8A3BF3DB530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2056C321-A145-4FB7-BE04-B8A3BF3DB530}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5973CB89-A3DD-4E2A-B633-37AA61DD0AC3}
+	EndGlobalSection
+EndGlobal
