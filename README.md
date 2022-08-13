@@ -11,7 +11,7 @@ Allows you to have a dependency on other mods dll. Will load those before it loa
 3. Make sure your own mod dll is not the same as folder name, otherwise Parkitect will load it first. You can rename it like `zMyMod` and it will work.
 
 # Known Issues
-- Fails to get the list of workshop mods if steam is in offline mod.
+- Fails to get the list of workshop mods if steam is in offline mode.
 
 # How its done
 
