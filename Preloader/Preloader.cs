@@ -305,12 +305,16 @@
                 {
                     if (path != null)
                     {
-                        string asmpath = Path.Combine(path, asmb);
-                        if (File.Exists(asmpath))
+                        var dirs = Directory.GetDirectories(path, "*", SearchOption.AllDirectories);
+                        foreach (var dir in dirs)
                         {
-                            Assembly.LoadFile(asmpath);
-                            Debug.Log(logstr + $"Loaded assembly {asmb} at path:  " + path);
-                            return true;
+                            string asmpath = Path.Combine(dir, asmb);
+                            if (File.Exists(asmpath))
+                            {
+                                Assembly.LoadFile(asmpath);
+                                Debug.Log(logstr + $"Loaded assembly {asmb} at path:  " + path);
+                                return true;
+                            }
                         }
                     }
                 }
