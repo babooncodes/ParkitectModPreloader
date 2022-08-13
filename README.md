@@ -10,6 +10,9 @@ Allows you to have a dependency on other mods dll. Will load those before it loa
     - dependencies that the mod requires, workshop id of the mod containing them, and names of the dlls.
 3. Make sure your own mod dll is not the same as folder name, otherwise Parkitect will load it first. You can rename it like `zMyMod` and it will work.
 
+# Known Issues
+- Fails to get the list of workshop mods if steam is in offline mod.
+
 # How its done
 
 Preloader uses a hack where by counting how many times the `getIdentifier` is called on a mod where it is created by Parki,
